@@ -18,6 +18,10 @@ let package = Package(
             name: "Ananda",
             targets: ["Ananda"]
         ),
+        .library(
+            name: "AnandaMacros",
+            targets: ["AnandaMacros"]
+        ),
     ],
     dependencies: [
         .package(
